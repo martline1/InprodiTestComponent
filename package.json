@@ -1,0 +1,51 @@
+{
+  "name": "inproditestcomponent",
+  "version": "0.1.0",
+  "description": "Este es el test final de la entrevista de trabajo de Inprodi, donde se pide la realización de un componente TodoList usando react.",
+  "main": "./src/pages/_document.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .js,.jsx src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martline1/InprodiTestComponent.git"
+  },
+  "keywords": [
+    "react",
+    "inprodi",
+    "material-ui"
+  ],
+  "author": "Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martline1/InprodiTestComponent/issues"
+  },
+  "homepage": "https://github.com/martline1/InprodiTestComponent#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/styles": "^4.10.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^9.5.5",
+    "next-images": "^1.6.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-reveal": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-root-import": "^6.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-align-import": "^1.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^4.3.0"
+  }
+}
